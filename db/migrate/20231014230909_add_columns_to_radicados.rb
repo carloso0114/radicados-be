@@ -9,12 +9,15 @@ class AddColumnsToRadicados < ActiveRecord::Migration[7.0]
     add_column :radicados, :tparticipacion, :string
     add_column :radicados, :tparticipacionsas, :string
     add_column :radicados, :nespectaculo, :string
-    add_column :radicados, :aportesalvaguardia, :string
     add_column :radicados, :transmisionSaberes, :boolean
     add_column :radicados, :investigaciones, :boolean
     add_column :radicados, :contenidos, :boolean
     add_column :radicados, :aporteSalvaguardaOtras, :boolean
     add_column :radicados, :cualesSalvaguardia, :string
+    add_column :radicados, :manifestacion, :string
+    add_column :radicados, :grupoPoblacional, :string
+    add_column :radicados, :grupoEtnico, :string
+    add_column :radicados, :terminosCondiciones, :string
     add_column :radicados, :nmiembros, :integer
     add_column :radicados, :nmusicos, :integer
     add_column :radicados, :vestuarios, :integer

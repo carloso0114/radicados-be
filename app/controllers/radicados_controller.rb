@@ -58,7 +58,7 @@ class RadicadosController < ApplicationController
     :razonSocial, :localidad, :transmisionSaberes, :vestuarios, :pagomusicos, 
     :apoyomovilizacion, :otrasInversiones, :tparticipacion, :tparticipacionsas, 
     :celular, :correo, :direccion, :barrio, :municipio, :nespectaculo, 
-    :aportesalvaguardia, :investigaciones, :contenidos, :aporteSalvaguardaOtras, :cualesSalvaguardia,
+    :grupoEtnico, :grupoPoblacional, :manifestacion, :terminosCondiciones, :investigaciones, :contenidos, :aporteSalvaguardaOtras, :cualesSalvaguardia,
     :nmiembros, :nmusicos, :cualesEjecucionDelEstimulo, :observaciones, :cedula, :rut, :certificado, 
     :certificacionBancaria, :censo, :evidencias, :lecturabando, :SemilleroCarnaval, 
     :fiestaComparsas, :CarnavalNiños, :fiestaDanzasyCumbias, :BFVia40, 
