@@ -62,9 +62,21 @@ class RadicadosController < ApplicationController
     :nmiembros, :nmusicos, :cualesEjecucionDelEstimulo, :observaciones, :cedula, :rut, :certificado, 
     :certificacionBancaria, :censo, :evidencias, :lecturabando, :SemilleroCarnaval, 
     :fiestaComparsas, :CarnavalNiños, :fiestaDanzasyCumbias, :BFVia40, 
-    :nocheGuacherna, :BFReyMomo, :Joselitocenizas, :CarnavalSurOccidente, 
-    :Disfrazoton, :CarnavalSurOriente, :Carnavalla44, :EncuentroLetanías, 
-    :GPComparsas, :FestivalRelacionyEspeciales, :Carnavalla84, :EncuentroComedias, 
-    :GPTradiciónFolclor, :CarnavalGay, :OtrosPECarnaval, :otrosParticipacionEventos)
+    :nocheGuacherna, :BFReyMomo, :Joselitocenizas, :EncuentroLetanías, 
+    :GPComparsas, :FestivalRelacionyEspeciales, :EncuentroComedias, 
+    :GPTradiciónFolclor, :OtrosPECarnaval, :otrosParticipacionEventos,
+    :nombreGrupo2, :nombreGrupo3, :nombreGrupo4,
+    :tparticipacion2, :tparticipacion3, :tparticipacion4,
+    :nespectaculo2, :nespectaculo3, :nespectaculo4,
+    :manifestacion2, :manifestacion3, :manifestacion4, 
+    :infantil, :jovenes, :adulto, :adulto_mayor, :musicos,
+    :infantil2, :jovenes2, :adulto2, :adulto_mayor2, :musicos2,
+    :infantil3, :jovenes3, :adulto3, :adulto_mayor3, :musicos3,
+    :infantil4, :jovenes4, :adulto4, :adulto_mayor4, :musicos4,
+    :BFSoniaOsorio, :ConquistaDelCarnaval, :CoronacionGay, :DesfileCarnavalSurocciente,
+    :DesfileCarnavalSuroriente, :DesfileInfantilSurOriente, :DesfileSalvaguardiaYNinos,
+    :FarolesTambores, :FestivalRelacionyEspeciales, :GpCarlosFranco, :GuachernaGay,
+    :LetaniaCumbion, :funcionario
+    )
   end
 end
